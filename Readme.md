@@ -1,8 +1,8 @@
-<div style="display:flex; flex-direction:column; align-items:center; gap:5px">
+<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px">
 
 ![Logo Daw2023](https://codeqba.com/assets/img/daw2023.png)
 
-<div style="display:flex; justify-content:center; align-items:center; gap:15px">
+<div style="display:flex; flex-direction:row; justify-content:center; align-items:center; gap:15px">
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/rbarbeito/DAW-ONG?style=for-the-badge&logo=github&logoColor=%23181717&labelColor=blue&color=black)
 
