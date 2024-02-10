@@ -1,4 +1,4 @@
-!["Logo del DAW 2023-2025"|10](<./Sin título.png>)
+![alt text](https://codeqba.com/assets/img/daw2023.png)
 
 # Tareas
 
