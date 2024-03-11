@@ -1,9 +1,15 @@
-*{
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Nunito', sans-serif;
 }
-/* CSS BLOG */
+
+:root{
+    --color-yellow:#ffc814;
+    --color-black:#0d0d0d;
+    --color-white:#f2f2f2;
+}
+
 /* Inicio CSS Menu Temporal */
 
 #blog_menu {
