@@ -5,11 +5,41 @@
 @media only screen and (min-width : 481px) and (max-width : 768px) {}
 
 /* pantallas pequeñas, ordenadores portátiles */
-@media only screen and (min-width : 769px) and (max-width : 1024px) {}
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    #blog_contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog_noticia{
+        margin: 10px 20px;
+    }
+}
 
 /* pantallas grandes, ordenadores de escritorio */
-@media only screen and (min-width : 1025px) and (max-width : 1200px) {}
+@media only screen and (min-width : 1025px) and (max-width : 1200px) {
+    #blog_contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog_noticia{
+        margin: 10px 20px;
+    }
+}
 
 /* pantallas extra-grandes, televisores */
-@media only screen and (min-width : 1201px)  {}
+@media only screen and (min-width : 1201px)  {
+    #blog_contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog_noticia{
+        margin: 10px 20px;
+    }
+}
 
