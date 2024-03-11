@@ -53,7 +53,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rbarbeito/DAW-ONG?authorFilter=MataLantejas&style=for-the-badge&logo=githubactions&logoColor=black&labelColor=yellow&label=Equipo%20Arturo)
 
-    [ ] Blog / Noticias
+    [X] Blog / Noticias
 
-    [ ] Transparencia
+    [X] Transparencia
  
