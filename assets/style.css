@@ -1,17 +1,14 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
-}
 
+}
 :root{
     --color-yellow:#ffc814;
     --color-black:#0d0d0d;
     --color-white:#f2f2f2;
 }
-
-
 body{
     width: 100%;
     height: 100vh;
@@ -31,16 +28,16 @@ body{
     width: 20%;
     border-radius: 50%;
 }
-nav{
+#proyecto-nav{
     display: flex;
     height: 100%;
     width: 50%;
     align-items: center;
     justify-content: space-between;
 }
-nav span:hover{
+#proyecto-nav span:hover{
     cursor: pointer;
-    color: #FFC814;
+    color: var(--color-yellow);
     transition: 0.5s;
 }
 #proyecto-principal{
@@ -57,8 +54,8 @@ nav span:hover{
     border-radius: 10%;
     padding: 10px;
     width: 50px;
-    background: #0D0D0D;
-    color: #FFC814;
+    background:var(--color-black);
+    color: var(--color-yellow);
 }
 .proyecto-caja p{
     width: 40%;
@@ -90,8 +87,8 @@ nav span:hover{
 #proyecto-paginacion span:hover{
     cursor: pointer;
     border-radius: 50%;
-    color: #FFC814;
-    background: #0D0D0D;
+    color:var(--color-yellow);
+    background: var(--color-black);
     transition: 0.5ms;
 
 }
@@ -99,7 +96,7 @@ nav span:hover{
     display: flex;
     height: 20%;
     width: 100%;
-    background-color: #0D0D0D;
+    background-color: var(--color-black);
 }
 #proyecto-imagen-footer{
     display: flex;
@@ -115,19 +112,19 @@ nav span:hover{
     align-items: end;
     flex-direction: row;
     justify-content: space-between;
-    color: #F2F2F2;
+    color: var(--color-white);
     margin-left: 50px;
     padding: 10px;
 }
 #proyecto-derechos span:hover{
     cursor: pointer;
     transition: 0.5s;
-    color: #FFC814;
+    color: var(--color-yellow);
 }
 #proyecto-iconos{
     display: flex;
     justify-content: end;
-    color: #F2F2F2;
+    color: var(--color-white);
     margin-left: 10px;
     padding: 10px;
 }
@@ -138,6 +135,6 @@ nav span:hover{
 #proyecto-iconos i:hover{
     cursor: pointer;
     transition: 0.5ms;
-    color: #FFC814;
+    color: var(--color-yellow);
 
 }
