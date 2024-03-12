@@ -24,7 +24,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rbarbeito/DAW-ONG?authorFilter=Aaron&style=for-the-badge&logo=githubactions&label=Equipo%20Aaron&logoColor=black&labelColor=magenta)
 
-    [ ] Proyectos
+    [X] Proyectos
 
 ## Equipo Nico
 
@@ -43,7 +43,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rbarbeito/DAW-ONG?authorFilter=davidstudiocode&style=for-the-badge&logo=githubactions&label=Equipo%20David&logoColor=black&labelColor=red)
 
 
-    [x] Crear Pagina inicio
+    [] Crear Pagina inicio
 
     [ ] Crear Pagina Acerca de
 
