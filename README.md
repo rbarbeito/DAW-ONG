@@ -45,7 +45,7 @@
 
     [X] Crear Pagina inicio
 
-    [ ] Crear Pagina Acerca de
+    [X] Crear Pagina Acerca de
 
     [x] Paleta de colores
 
