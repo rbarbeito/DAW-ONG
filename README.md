@@ -30,7 +30,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rbarbeito/DAW-ONG?authorFilter=nsjuares42&style=for-the-badge&logo=githubactions&label=Equipo%20Nico&logoColor=black&labelColor=aqua)
 
-    [ ] Contacto
+    [X] Contacto
 
 ## Equipo Cristopher
 
@@ -43,7 +43,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rbarbeito/DAW-ONG?authorFilter=davidstudiocode&style=for-the-badge&logo=githubactions&label=Equipo%20David&logoColor=black&labelColor=red)
 
 
-    [ X ] Crear Pagina inicio
+    [X] Crear Pagina inicio
 
     [ ] Crear Pagina Acerca de
 
