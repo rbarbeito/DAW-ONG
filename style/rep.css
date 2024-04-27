@@ -70,8 +70,9 @@
     .proyecto-info{
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
+        padding: 0px 30px 0px 30px;
         text-align: justify;
+        margin-top: 20px;
         width: 100%;
     }
     .proyecto-info_2{
@@ -79,6 +80,7 @@
         flex-direction: column;
         width: 100%;
         padding-left: 30px;
+        margin-top: 20px;
         text-align: justify
     }
     .proyecto-info p{
@@ -109,14 +111,14 @@
     .proyecto-caja_boton{
         display: flex;
         width: 100%;
-        justify-content: end;
-        margin-top: 15px;
+        justify-content: center;
+        margin-top: 25px;
     }
     .proyecto-caja_boton_izq{
         display: flex;
         width: 100%;
-        justify-content: end;
-        margin-top: 15px;
+        justify-content: center;
+        margin-top: 25px;
     }
     
     /* FOOTER */
