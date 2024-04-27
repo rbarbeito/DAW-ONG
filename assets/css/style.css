@@ -33,31 +33,31 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     & .container {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+
         & a img {
             padding-left: 50px;
             max-width: 40rem;
             width: 12rem;
         }
-        
+
         /* & closemenu{ } */
-        
+
         & .navi {
             display: flex;
             align-items: center;
             gap: 1rem;
             list-style: none;
-            
+
             & li {
                 margin-inline: 0.6rem;
                 min-width: max-content;
-                
+
                 & a {
                     font-size: 1rem;
                     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
@@ -66,7 +66,7 @@ header {
                     color: white;
                 }
             }
-            
+
             & #inicio_donate {
                 background-color: #ffc814;
                 margin: 15px;
@@ -77,21 +77,21 @@ header {
                 border: none;
                 cursor: pointer;
             }
-            
+
             & #inicio_donate:hover {
                 background-color: white;
                 transition: 0.5s;
             }
         }
     }
-    
+
     & #inicio_banner_texto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 500px;
-        
+
         & p:first-of-type {
             color: white;
             /* font-size: 60px; */
@@ -142,8 +142,48 @@ header {
 }
 
 
-footer{
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+    & #inicio_footer {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* padding-top: 5rem; */
+        
+        & div {
+            height: 100px;
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+
+            & ul {
+                list-style: none;
+                margin-top: 1.5rem;
+
+                & li {
+                    font-size: .8rem;
+                    margin-block: .3rem;
+                }
+            }
+
+            & #menuIcons {
+                display: flex;
+                flex-direction: row;
+                margin-top: 1.5rem;
+                gap: 1rem;
+
+
+
+            }
+        }
+    }
+
 }
 
 
@@ -406,6 +446,29 @@ main#mainInicio {
             & p:last-child {
                 color: var(--color-white);
             }
+        }
+
+    }
+
+    & section#secciongeneral6 {
+        width: 100%;
+        height: 380px;
+        background: var(--color-yellow);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 1rem;
+
+        & h2 {
+            font-size: 35px;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        & p {
+            margin-block: 10px;
+
         }
 
     }

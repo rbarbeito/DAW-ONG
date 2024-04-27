@@ -100,6 +100,8 @@
 
     }
 
+
+
     main#mainInicio {
         & section#inicio_patrocionadores {
 
@@ -318,6 +320,47 @@
                 gap: .3rem;
             }
 
+        }
+
+    }
+
+    footer {
+
+        & #inicio_footer {
+            height: inherit;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-evenly;
+            /* padding-top: 5rem; */
+
+            & div {
+                margin-top: 1.5rem;
+                margin-inline-start: 1.3rem;
+                height: 100px;
+                width: 150px;
+                display: flex;
+                flex-direction: column;
+
+                & ul {
+                    list-style: none;
+                    margin-top: .8rem;
+
+                }
+
+                & #menuIcons {
+                    
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    margin-top: 1.5rem;
+                    gap: 1rem;
+                    margin-inline-start: 0px !important;
+
+                  
+
+
+                }
+            }
         }
 
     }
