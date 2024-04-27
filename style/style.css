@@ -17,6 +17,8 @@
     overflow: hidden;
     height: 145px;
     width: 100%;
+    position: absolute;
+    bottom: 100;
     justify-content: space-around;
     color: var(--color-white);
     background: var(--color-black);
