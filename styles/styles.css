@@ -8,17 +8,20 @@
 }
 
 #inicio_principal_banner {
-  height: 700px;
-  background-image: url(https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg);
 }
 
 header {
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 2rem;
   width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -138,6 +141,10 @@ header {
   width: 150px;
   margin-left: 60px;
 }
+
+
+
+
 
 /* -------------- JHONATHAN ---------------- */
 
@@ -333,6 +340,11 @@ header {
   margin-bottom: 40px;
 }
 
+
+
+
+
+
 /* ---------------- JORDI ----------------- */
 
 #video_inicio {
@@ -403,6 +415,10 @@ header {
   text-align: justify;
 }
 
+
+
+
+
 /* -------------- REDA ---------------- */
 
 #inicio_stats {
@@ -457,6 +473,12 @@ header {
   border: none;
 }
 
+
+
+
+
+
+
 #inicio_footer {
   height: 300px;
   display: flex;
@@ -502,6 +524,14 @@ header {
 #inicio_copyright p {
   color: lightgray;
 }
+
+
+
+
+
+
+
+
 
 /* -------------- RESPONSIVE ---------------- */
 
@@ -633,6 +663,10 @@ header {
   #inicio_logos_patrocinadores img {
     width: 100px;
   }
+
+
+
+
 
   /* -------------- JHONATHAN ---------------- */
 
