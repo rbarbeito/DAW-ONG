@@ -114,7 +114,9 @@
 .proyecto-fotos img{
     box-shadow: 1px 1px 2px 2px;
 }
-
+.proyecto-imagen{
+    border-radius: 5px;
+}
 /* FOOTER */
 #proyecto-footer{
     display: flex;
