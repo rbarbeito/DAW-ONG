@@ -69,6 +69,7 @@ header {
     background-color: white;
     transition: 0.5s;
 }
+
 .openmenu,
 .closemenu {
     display: none;
