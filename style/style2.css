@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 :root{
@@ -8,7 +9,6 @@
     --color-black:#0d0d0d;
     --color-white:#f2f2f2;
 }
-/* HEADER */
 #inicio_principal_banner {
     height: 700px;
     background-image: url(https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg);
@@ -26,14 +26,14 @@ header {
 .container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .container a img {
-    padding-left: 60px;
+    padding-left: 50px;
     max-width: 40rem;
-    width: 8rem;
+    width: 12rem;
 }
 
 .navi {
@@ -41,21 +41,21 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-
-.navi ul {
-    font-size: 20px;
+  }
+  
+  .navi ul {
+    font-size: 16px;
     font-weight: bold;
-}
-
-.navi li a {
+  }
+  
+  .navi li a {
     margin: 30px;
     font-size: 15px;
     text-decoration: none;
     color: white;
-}
-
-#inicio_donate {
+  }
+  
+  #inicio_donate {
     background-color: #ffc814;
     margin: 15px;
     padding: 10px;
@@ -63,18 +63,19 @@ header {
     font-weight: 600;
     border: none;
     cursor: pointer;
-}
-
-#inicio_donate:hover {
+  }
+  
+  #inicio_donate:hover {
     background-color: white;
     transition: 0.5s;
-}
-.openmenu,
-.closemenu {
+  }
+  
+  .openmenu,
+  .closemenu {
     display: none;
-}
-
-#inicio_banner_texto {
+  }
+  
+  #inicio_banner_texto {
     color: white;
     width: 90%;
     display: flex;
@@ -85,50 +86,49 @@ header {
     height: 600px;
     font-size: 80px;
     font-weight: 700;
-}
-
-#inicio_banner_texto p {
+  }
+  
+  #inicio_banner_texto p {
     width: 400px;
     font-size: 14px;
     font-weight: 400;
     padding-top: 10px;
-}
-
-#inicio_botones {
+  }
+  
+  #inicio_botones {
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: row;
     width: 400px;
-}
-
-#inicio_boton1 a {
+  }
+  
+  #inicio_boton1 a {
     text-decoration: none;
     color: black;
-}
-
-#inicio_boton2 a {
+  }
+  
+  #inicio_boton2 a {
     text-decoration: none;
     color: black;
-}
-
-#inicio_boton1 {
+  }
+  
+  #inicio_boton1 {
     font-weight: 700;
     font-size: 16px;
     padding: 15px;
     border: none;
     cursor: pointer;
-}
-
-#inicio_boton2 {
+  }
+  
+  #inicio_boton2 {
     font-weight: 700;
     font-size: 16px;
     padding: 15px;
     background: #ffc814;
     border: none;
     margin-left: 30px;
-}
-
+  }
 /* AQUI EMPIEZA LO MIO --------------------------- */
 #proyecto-principal{
     display: flex;
@@ -194,7 +194,7 @@ header {
     border-radius: 5px;
     margin: 10px;
 }
-#proyecto-oton2{
+#proyecto-boton2{
     position: absolute;
     bottom: 0;
     right: 30%;
@@ -211,10 +211,10 @@ header {
     overflow: hidden;
     margin-bottom: 40px;
 }
-h2 a{
+#proyecto-titulo-principal a{
     color: var(--color-yellow);
 }
-h2{
+#proyecto-titulo-principal{
     letter-spacing: 1px;
 }
 p a{
