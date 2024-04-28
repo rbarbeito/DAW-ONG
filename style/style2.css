@@ -26,14 +26,14 @@ header {
 .container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .container a img {
-    padding-left: 50px;
+    padding-left: 60px;
     max-width: 40rem;
-    width: 12rem;
+    width: 8rem;
 }
 
 .navi {
@@ -69,7 +69,6 @@ header {
     background-color: white;
     transition: 0.5s;
 }
-
 .openmenu,
 .closemenu {
     display: none;
@@ -129,6 +128,7 @@ header {
     border: none;
     margin-left: 30px;
 }
+
 /* AQUI EMPIEZA LO MIO --------------------------- */
 #proyecto-principal{
     display: flex;
@@ -181,7 +181,7 @@ header {
 #proyecto-principal-texto h1{
     margin: 30px;
 }
-#boton1{
+#proyecto-boton1{
     position: absolute;
     bottom: 0;
     left: 30%;
@@ -194,7 +194,7 @@ header {
     border-radius: 5px;
     margin: 10px;
 }
-#boton2{
+#proyecto-oton2{
     position: absolute;
     bottom: 0;
     right: 30%;
@@ -207,7 +207,7 @@ header {
     border-radius: 5px;
     margin: 10px;
 }
-#imagen2{
+#proyecto-imagen2{
     overflow: hidden;
     margin-bottom: 40px;
 }

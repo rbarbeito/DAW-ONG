@@ -28,12 +28,12 @@ header {
 .container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .container a img {
-    padding-left: 50px;
+    padding-left: 60px;
     max-width: 40rem;
     width: 12rem;
 }
