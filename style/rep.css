@@ -1,0 +1,271 @@
+/* Dispositivos moviles */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+    }
+    :root{
+        --color-yellow:#ffc814;
+        --color-black:#0d0d0d;
+        --color-white:#f2f2f2;
+    }
+    
+    /* HEADER */
+    .openmenu,
+    .closemenu {
+        display: block;
+        border: 0;
+        font-size: 1.5rem;
+        background-color: transparent;
+        cursor: pointer;
+        }
+    
+        .openmenu {
+        padding-right: 15px;
+        color: #ececec;
+        }
+    
+        .closemenu {
+        color: #ececec;
+        }
+    
+        .navigation {
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 3rem;
+        /* z-index: 2; */
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        text-align: center;
+        }
+        .navigation.visible {
+        opacity: 1;
+        visibility: visible;
+        }
+    
+        .navi {
+        flex-direction: column;
+        align-items: end;
+        }
+    
+        .navi li a {
+        text-decoration: none;
+        color: #ecececec;
+        font-size: 15px;
+        }
+    
+        .navi {
+        display: flex;
+        align-items: center;
+        }
+    
+        .container a img {
+        padding-left: 20px;
+        max-width: 20rem;
+        width: 8rem;
+        }
+
+        #contenedor_navi {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        }
+    
+    #inicio_banner_texto {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 500px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    #inicio_banner_texto p {
+        padding-left: 50px;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+
+    #inicio_botones {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        width: 400px;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    #inicio_boton1 {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 15px;
+        border: none;
+    }
+
+    #inicio_boton2 {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 15px;
+        background: #ffc814;
+        border: none;
+        padding-left: 10px;
+    }
+    
+    /* MAIN */
+    #proyecto-main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .proyecto-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proyecto-container_2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 100%;
+    }
+
+    
+    /* Caja con titulo, parrafo y boton */
+    .proyecto-info{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px 0px 30px;
+        text-align: justify;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .proyecto-info_2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+        margin-top: 20px;
+        text-align: justify
+    }
+    .proyecto-info p{
+        margin-top: 20px;
+        width: 100%;    
+    }
+    .proyecto-info_2 p{
+        margin-top: 20px;
+        width: 100%;
+    }
+    /* Botones */
+    .proyecto-boton{
+        border: none;
+        color: var(--color-white);
+        background-color: var(--color-black);
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        font-weight: bold;
+    }
+    .proyecto-boton:hover{
+        border: none;
+        color: var(--color-white);
+        background-color: var(--color-yellow);
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .proyecto-caja_boton{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .proyecto-caja_boton_izq{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    /* FOOTER */
+    .numbers p {
+        font-size: 25px;
+        }
+        .numbers span {
+            font-size: 10px;
+        }
+    
+        #inicio_join {
+            height: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        #inicio_footer {
+            height: inherit;
+            justify-content: space-between;
+            align-items: start;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        #inicio_join span {
+            font-size: 25px;
+        }
+    
+        #inicio_footer p {
+            font-size: 20px;
+        }
+    
+        #inicio_footer span {
+            font-size: 16px;
+        }
+    
+        #inicio_copyright p {
+            font-size: 30px;
+        }
+        #inicio_copyright {
+            margin: 10px 0;
+        }
+        #inicio_copyright p {
+            font-size: 13px;
+        }
+    
+        #inicio_icons {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        #inicio_icons i {
+            font-size: 25px;
+        }
+    }
+    
+/* ipad y Tables */
+@media only screen and (min-width : 481px) and (max-width : 768px) {}
+
+/* pantallas pequeñas, ordenadores portátiles */
+@media only screen and (min-width : 769px) and (max-width : 1024px) {}
+
+/* pantallas grandes, ordenadores de escritorio */
+@media only screen and (min-width : 1025px) and (max-width : 1200px) {}
+
